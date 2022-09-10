@@ -205,6 +205,7 @@ export default function ToggleColorMode() {
   return (
     <ColorModeContext.Provider value={colorMode}>
       <ThemeProvider theme={theme}>
+        <CssBaseline />
         <Catalog />
       </ThemeProvider>
     </ColorModeContext.Provider>
